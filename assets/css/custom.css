@@ -1,0 +1,7 @@
+/* Simple tweaks on top of Minima */
+.post-title { letter-spacing: 0.2px; }
+.site-title a { text-decoration: none; }
+.btn-primary { padding: .6rem 1rem; border:1px solid #ddd; border-radius: .5rem; }
+.hero {
+padding: 2rem 1rem; border: 1px solid #eee; border-radius: .75rem;
+}

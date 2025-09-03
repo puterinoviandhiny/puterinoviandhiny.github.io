@@ -1,3 +1,38 @@
+# =============================
+# _config.yml
+# =============================
+# Basic site config (edit freely)
 title: "Jasa Pembuatan Website & Aplikasi"
-description: "Layanan pembuatan website profesional, aplikasi mobile & sistem informasi"
+description: "Layanan pembuatan website profesional, aplikasi mobile, dan sistem informasi untuk UMKM, startup, dan instansi."
+url: "https://puterinoviandhiny.github.io" # change after adding custom domain
+baseurl: "" # leave empty for user site
+
+
+# Theme & plugins supported by GitHub Pages
 theme: minima
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-sitemap
+
+
+# Minima theme options
+minima:
+social_links:
+- { platform: github, user_url: "https://github.com/puterinoviandhiny" }
+- { platform: whatsapp, user_url: "https://wa.me/6289693342298?text=Halo,%20saya%20tertarik%20dengan%20jasa%20pembuatan%20website" }
+skin: auto # dark/light based on device
+
+
+# Navigation links
+header_pages:
+- services.md
+- about.md
+- contact.md
+
+
+# Build settings
+markdown: kramdown
+kramdown:
+input: GFM
+permalink: /:categories/:title/
